@@ -10,7 +10,7 @@ priority weights (or pick a preset) and the whole map rebuilds around what matte
 Part of the [42-apps](https://42-apps.github.io/) collection, built with
 [globe.gl](https://globe.gl).
 
-**Live:** https://42-apps.github.io/best-countries-map/  ·  **v0.1.2**
+**Live:** https://42-apps.github.io/best-countries-map/  ·  **v0.1.3**
 
 ## What it does
 
@@ -56,7 +56,7 @@ expert estimates. Sources include:
 - **Education** — OECD PISA 2022 + World Bank harmonised learning
 - **Openness** — Gallup Migrant Acceptance + EF English Proficiency
 - **Opportunity** — GDP per capita (PPP) + employment (World Bank)
-- **Low tax** — tax-to-GDP + total tax & contribution rate (World Bank)
+- **Low tax** — headline personal-income, capital-gains, VAT, corporate, social-security & estate rates (the sibling [GlobalTax](https://github.com/martingluckman/globaltax) dataset, weighted toward personal income tax), with World Bank tax-to-GDP as fallback
 - **Work–life** — statutory paid leave + average annual hours
 - **Infrastructure** — World Bank Logistics Performance Index + median internet speed
 - **Landscape / Food / Arts & culture / Spirituality / Fun** — expert estimates anchored to
@@ -91,6 +91,7 @@ python3 build_scores.py     # reads data/raw/*.json → writes data/countries.js
 | `data/countries.js` | 196 countries × 19 dimensions (built) |
 | `data/countries.geojson` | Natural Earth country boundaries |
 | `data/raw/*.json` | Source index data from the research sweep (provenance) |
+| `data/raw/globaltax-tax-data.js` | Headline per-country tax rates, vendored from the [GlobalTax](https://github.com/martingluckman/globaltax) project |
 | `build_scores.py` | Regenerates `countries.js` from `data/raw/` + expert curation |
 | `lib/globe.gl.min.js` | 3D globe engine |
 

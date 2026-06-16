@@ -14,7 +14,7 @@ dimensions (landscape, climate, food, culture, spirituality, fun) blend public p
 expert estimates. Missing dimensions are imputed from a country's own mean so the weighted
 Overall stays fair; `cov` records how many of the 19 were backed by real data.
 """
-import json, os, re, datetime
+import json, os, re, sys, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "data", "raw")
@@ -142,6 +142,53 @@ P["protect"]        = collect((CUL, "protectedPct"))
 P["michelin"]       = collect((CUL, "michelin"))
 # life-expectancy fallback from the reference (covers a few not in ENV)
 P["leRef"]          = percentiles({iso: M["le"] for iso, M in MASTER.items() if M.get("le")})
+
+# ---- GlobalTax headline-rate dataset (github.com/martingluckman/globaltax) ----
+# Purpose-built per-country headline tax rates; far better for "Low tax burden" than
+# the blunt tax-to-GDP proxy. Keyed by ISO alpha-2 -> map to alpha-3 via the geojson.
+A2A3 = {}
+try:
+    geo = json.load(open(os.path.join(HERE, "data", "countries.geojson"), encoding="utf-8"))
+    for f in geo["features"]:
+        p = f["properties"]; a3 = p.get("ADM0_A3")
+        a2 = p.get("ISO_A2_EH")
+        if not a2 or a2 == "-99":
+            a2 = p.get("ISO_A2")
+        if a2 and a2 != "-99" and a3:
+            A2A3.setdefault(a2, a3)
+except Exception as e:
+    sys.stderr.write(f"geojson A2A3 load failed: {e}\n")
+A2A3.update({"XK":"XKX","NA":"NAM","TW":"TWN","HK":"HKG","MO":"MAC","GB":"GBR","FR":"FRA","NO":"NOR","CY":"CYP"})
+
+GTAX = {}   # iso3 -> {pit, cit, vat, cgt, est, ss}
+try:
+    gt = open(os.path.join(RAW, "globaltax-tax-data.js"), encoding="utf-8").read()
+    for m in re.finditer(r'\b([A-Z]{2})\s*:\s*\{([^{}]*)\}', gt, re.DOTALL):
+        a3 = A2A3.get(m.group(1))
+        if not a3:
+            continue
+        fields = {k: float(v) for k, v in re.findall(
+            r'(?<![A-Za-z])(pit|cit|vat|cgt|est|ss)\s*:\s*(-?\d+(?:\.\d+)?)', m.group(2))}
+        if "pit" in fields:
+            GTAX[a3] = fields
+except Exception as e:
+    sys.stderr.write(f"globaltax load failed: {e}\n")
+sys.stderr.write(f"GlobalTax headline rates: {len(GTAX)} countries\n")
+
+# Unified tax burden (lower = lighter). Weighted headline rates from GlobalTax where
+# available (personal income heaviest), else World Bank tax-to-GDP as a fallback proxy.
+TAXW = {"pit":0.42, "cgt":0.14, "ss":0.14, "vat":0.12, "cit":0.12, "est":0.06}
+taxBurden = {}
+for iso in MASTER:
+    f = GTAX.get(iso)
+    if f:
+        taxBurden[iso] = sum(w * f.get(k, 0.0) for k, w in TAXW.items())
+    else:
+        t = g(ECO, iso, "taxToGdp")
+        if t is not None:
+            taxBurden[iso] = float(t)
+_taxpct = percentiles(taxBurden)
+P["taxFinalInv"] = {k: max(1.0, min(100.0, 100.0 - v + 1.0)) for k, v in _taxpct.items()}
 
 def pv(metric, iso):
     return P[metric].get(iso)
@@ -299,7 +346,7 @@ def dim_values(iso):
     d["openness"]     = blend(iso, [("migrant", .55), ("english", .45)]) or blend(iso, [("english", 1.0)]) or blend(iso, [("migrant", 1.0)])
     d["opportunity"]  = blend(iso, [("gdp", .55), ("unempInv", .45)]) or blend(iso, [("gdp", 1.0)])
     d["affordability"]= blend(iso, [("nbPurch", .8), ("nbCostInv", .2)]) or blend(iso, [("gdp", 1.0)])
-    d["tax"]          = blend(iso, [("taxInv", .6), ("totalTaxInv", .4)]) or blend(iso, [("taxInv", 1.0)]) or blend(iso, [("totalTaxInv", 1.0)]) or expert(TAX_FILL, iso)
+    d["tax"]          = pv("taxFinalInv", iso) or expert(TAX_FILL, iso)
     d["worklife"]     = blend(iso, [("paidLeave", .5), ("hoursInv", .5)]) or blend(iso, [("paidLeave", 1.0)]) or blend(iso, [("hoursInv", 1.0)])
     d["infrastructure"]= blend(iso, [("lpi", .5), ("net", .3), ("gdp", .2)]) or blend(iso, [("gdp", 1.0)])
     # subjective: proxy blended with expert, expert fills gaps
