@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Best Countries Map · Where on Earth to live & work</title>
+<title>Best Countries to Live Map · Where on Earth to live & work</title>
 <meta name="description" content="An interactive 3D globe that ranks every country in the world on healthcare, safety, climate, cost of living, food, freedom, nature and more — painted green (best) to red (worst). Set your own priorities and watch the map rebuild around what matters to you.">
-<meta property="og:title" content="Best Countries Map — Where on Earth to live & work">
+<meta property="og:title" content="Best Countries to Live Map — Where on Earth to live & work">
 <meta property="og:description" content="Rank the world on 17 things that make a place good to live: healthcare, safety, climate, cost, food, freedom, nature & more. Build your own index and find your place on Earth.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Crect width='256' height='256' rx='58' fill='%23071611'/%3E%3Ccircle cx='128' cy='128' r='74' fill='none' stroke='%2334d27a' stroke-width='7'/%3E%3Cellipse cx='128' cy='128' rx='34' ry='74' fill='none' stroke='%2334d27a' stroke-opacity='.5' stroke-width='4'/%3E%3Cline x1='54' y1='128' x2='202' y2='128' stroke='%2334d27a' stroke-opacity='.5' stroke-width='4'/%3E%3Cpath d='M128 60 l13 38 40 1 -32 25 12 38 -33-23 -33 23 12-38 -32-25 40-1z' fill='%23ffd84d'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="app.css?v=4">
+<link rel="stylesheet" href="app.css?v=5">
 </head>
 <body>
 
@@ -33,7 +33,7 @@
       </svg>
       <div class="brand-txt">
         <span class="brand-kicker">Where on Earth to live &amp; work</span>
-        <span class="brand-name">Best Countries Map</span>
+        <span class="brand-name">Best Countries to Live Map</span>
         <span class="brand-sub">The whole world, ranked on what makes a place good to live</span>
       </div>
     </div>
@@ -142,20 +142,20 @@
   <div id="aboutOverlay" class="overlay hidden">
     <div class="ov-box">
       <button class="ov-close" id="aboutClose" aria-label="Close">×</button>
-      <h2>About the Best Countries Map</h2>
+      <h2>About the Best Countries to Live Map</h2>
       <p>This map paints every country by how good a place it is to <b>live and work</b> — <b style="color:#34d27a">green</b> for the best, <b style="color:#f1c40f">yellow</b> for the middling, <b style="color:#e2604f">red</b> for the toughest. It scores the world on <b id="abDimCount">17</b> dimensions, from healthcare and safety to climate, food, nature and tax.</p>
       <p><b>There is no single "best country" — only the best country <i>for you</i>.</b> Use the <b>⚖️ Your priorities</b> panel to weight what matters to you (or pick a preset like <i>Retiree</i>, <i>Digital nomad</i> or <i>Nature lover</i>) and the whole map rebuilds around your values. Click any dimension at the top to map just that one thing.</p>
       <h3>How the scores are built</h3>
       <p class="ab-method" id="abMethod"></p>
       <p class="ov-cav">Every score is normalised to a 0–100 scale where 100 is world-best. Subjective dimensions (landscape, climate, food, culture) are expert estimates anchored to the best available proxies; the rest are calibrated to the public indices listed above. This is an <b>opinionated atlas and a conversation starter</b>, not an official ranking. Corrections are warmly welcome.</p>
-      <p class="ov-src">v0.1.0 · Built with globe.gl · boundaries © Natural Earth · part of the <a href="https://42-apps.github.io/" target="_blank" rel="noopener">42-apps</a> collection.</p>
+      <p class="ov-src">v0.1.1 · Built with globe.gl · boundaries © Natural Earth · part of the <a href="https://42-apps.github.io/" target="_blank" rel="noopener">42-apps</a> collection.</p>
     </div>
   </div>
 
   <!-- ===== Welcome ===== -->
   <div id="welcomeOverlay" class="overlay hidden">
     <div class="ov-box welcome-box">
-      <span class="wel-kicker">Best Countries Map</span>
+      <span class="wel-kicker">Best Countries to Live Map</span>
       <h2>Where on Earth should you live? 🌍</h2>
       <p class="wel-tag">A living globe of <b id="welCount">190+</b> countries, ranked on the things that make a place good to live — painted <b style="color:#34d27a">green</b> for the best and <b style="color:#e2604f">red</b> for the toughest.</p>
       <ul class="wel-tips">
@@ -170,7 +170,7 @@
   </div>
 
   <script src="lib/globe.gl.min.js"></script>
-  <script src="data/countries.js?v=4"></script>
-  <script src="app.js?v=4"></script>
+  <script src="data/countries.js?v=5"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
