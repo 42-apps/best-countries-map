@@ -271,6 +271,16 @@ FUN = {  # healthy recreation, sport, outdoor activity & vibrant safe social lif
  "VUT":80,"WSM":82,"TON":80,"SYC":84,"BHS":86,"BRB":86,"BLZ":80,"GUY":72,"SUR":72,"HTI":66,
 }
 
+# Low-tax-burden fallback for jurisdictions the World Bank tax-to-GDP series misses.
+# Higher = lighter tax burden. Monaco/Andorra are genuine low-/no-income-tax states that
+# would otherwise be imputed to the middle of the map.
+TAX_FILL = {
+ "MCO":97,   # no personal income tax, no capital-gains or wealth tax
+ "AND":90,   # max ~10% income tax, 4.5% VAT (lowest in Europe)
+ "TWN":66,   # developed economy but relatively low tax-to-GDP (~13%)
+ "PRK":52,   # nominally "tax-free" but a command economy — treat as neutral
+}
+
 def expert(d, iso):
     v = d.get(iso)
     return float(v) if isinstance(v, (int, float)) and v > 0 else None
@@ -289,7 +299,7 @@ def dim_values(iso):
     d["openness"]     = blend(iso, [("migrant", .55), ("english", .45)]) or blend(iso, [("english", 1.0)]) or blend(iso, [("migrant", 1.0)])
     d["opportunity"]  = blend(iso, [("gdp", .55), ("unempInv", .45)]) or blend(iso, [("gdp", 1.0)])
     d["affordability"]= blend(iso, [("nbPurch", .8), ("nbCostInv", .2)]) or blend(iso, [("gdp", 1.0)])
-    d["tax"]          = blend(iso, [("taxInv", .6), ("totalTaxInv", .4)]) or blend(iso, [("taxInv", 1.0)]) or blend(iso, [("totalTaxInv", 1.0)])
+    d["tax"]          = blend(iso, [("taxInv", .6), ("totalTaxInv", .4)]) or blend(iso, [("taxInv", 1.0)]) or blend(iso, [("totalTaxInv", 1.0)]) or expert(TAX_FILL, iso)
     d["worklife"]     = blend(iso, [("paidLeave", .5), ("hoursInv", .5)]) or blend(iso, [("paidLeave", 1.0)]) or blend(iso, [("hoursInv", 1.0)])
     d["infrastructure"]= blend(iso, [("lpi", .5), ("net", .3), ("gdp", .2)]) or blend(iso, [("gdp", 1.0)])
     # subjective: proxy blended with expert, expert fills gaps

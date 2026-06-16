@@ -10,7 +10,7 @@ priority weights (or pick a preset) and the whole map rebuilds around what matte
 Part of the [42-apps](https://42-apps.github.io/) collection, built with
 [globe.gl](https://globe.gl).
 
-**Live:** https://42-apps.github.io/best-countries-map/  ·  **v0.1.1**
+**Live:** https://42-apps.github.io/best-countries-map/  ·  **v0.1.2**
 
 ## What it does
 
