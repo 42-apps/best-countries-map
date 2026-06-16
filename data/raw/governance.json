@@ -1,0 +1,1381 @@
+{
+"AFG": {
+"cpi": 16.0,
+"freedomHouse": 6.0,
+"pressFreedom": 17.88,
+"peaceIndex": 3.106,
+"humanFreedom": null
+},
+"AGO": {
+"cpi": 32.0,
+"freedomHouse": 28.0,
+"pressFreedom": 52.67,
+"peaceIndex": 1.955,
+"humanFreedom": 5.74
+},
+"ALB": {
+"cpi": 39.0,
+"freedomHouse": 68.0,
+"pressFreedom": 58.18,
+"peaceIndex": 1.725,
+"humanFreedom": 7.92
+},
+"AND": {
+"cpi": null,
+"freedomHouse": 93.0,
+"pressFreedom": 63.3,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"ARE": {
+"cpi": 69.0,
+"freedomHouse": 18.0,
+"pressFreedom": 26.91,
+"peaceIndex": 1.927,
+"humanFreedom": 5.9
+},
+"ARG": {
+"cpi": 36.0,
+"freedomHouse": 85.0,
+"pressFreedom": 56.14,
+"peaceIndex": 1.922,
+"humanFreedom": 6.93
+},
+"ARM": {
+"cpi": 46.0,
+"freedomHouse": 54.0,
+"pressFreedom": 73.96,
+"peaceIndex": 1.825,
+"humanFreedom": 7.91
+},
+"ATG": {
+"cpi": null,
+"freedomHouse": 83.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"AUS": {
+"cpi": 76.0,
+"freedomHouse": 95.0,
+"pressFreedom": 75.15,
+"peaceIndex": 1.602,
+"humanFreedom": 8.8
+},
+"AUT": {
+"cpi": 69.0,
+"freedomHouse": 93.0,
+"pressFreedom": 78.12,
+"peaceIndex": 1.421,
+"humanFreedom": 8.48
+},
+"AZE": {
+"cpi": 30.0,
+"freedomHouse": 7.0,
+"pressFreedom": 25.47,
+"peaceIndex": 2.142,
+"humanFreedom": 5.54
+},
+"BDI": {
+"cpi": 17.0,
+"freedomHouse": 15.0,
+"pressFreedom": 45.44,
+"peaceIndex": 2.417,
+"humanFreedom": 4.88
+},
+"BEL": {
+"cpi": 69.0,
+"freedomHouse": 96.0,
+"pressFreedom": 80.12,
+"peaceIndex": 1.608,
+"humanFreedom": 8.47
+},
+"BEN": {
+"cpi": 45.0,
+"freedomHouse": 60.0,
+"pressFreedom": 54.6,
+"peaceIndex": 2.293,
+"humanFreedom": 6.93
+},
+"BFA": {
+"cpi": 40.0,
+"freedomHouse": 25.0,
+"pressFreedom": 52.25,
+"peaceIndex": 2.882,
+"humanFreedom": 6.31
+},
+"BGD": {
+"cpi": 24.0,
+"freedomHouse": 45.0,
+"pressFreedom": 33.71,
+"peaceIndex": 2.226,
+"humanFreedom": 5.52
+},
+"BGR": {
+"cpi": 40.0,
+"freedomHouse": 77.0,
+"pressFreedom": 60.78,
+"peaceIndex": 1.628,
+"humanFreedom": 7.77
+},
+"BHR": {
+"cpi": 50.0,
+"freedomHouse": 12.0,
+"pressFreedom": 30.24,
+"peaceIndex": 2.131,
+"humanFreedom": 5.53
+},
+"BHS": {
+"cpi": 64.0,
+"freedomHouse": 90.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": 7.82
+},
+"BIH": {
+"cpi": 34.0,
+"freedomHouse": 52.0,
+"pressFreedom": 56.33,
+"peaceIndex": 1.81,
+"humanFreedom": 7.15
+},
+"BLR": {
+"cpi": 31.0,
+"freedomHouse": 7.0,
+"pressFreedom": 25.73,
+"peaceIndex": 2.216,
+"humanFreedom": 5.32
+},
+"BLZ": {
+"cpi": 36.0,
+"freedomHouse": 88.0,
+"pressFreedom": 68.32,
+"peaceIndex": null,
+"humanFreedom": 7.48
+},
+"BOL": {
+"cpi": 28.0,
+"freedomHouse": 65.0,
+"pressFreedom": 54.09,
+"peaceIndex": 2.054,
+"humanFreedom": 6.88
+},
+"BRA": {
+"cpi": 35.0,
+"freedomHouse": 72.0,
+"pressFreedom": 63.8,
+"peaceIndex": 2.333,
+"humanFreedom": 7.18
+},
+"BRB": {
+"cpi": 68.0,
+"freedomHouse": 94.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": 7.75
+},
+"BRN": {
+"cpi": 63.0,
+"freedomHouse": 27.0,
+"pressFreedom": 53.47,
+"peaceIndex": null,
+"humanFreedom": 5.88
+},
+"BTN": {
+"cpi": 71.0,
+"freedomHouse": 68.0,
+"pressFreedom": 32.62,
+"peaceIndex": 1.546,
+"humanFreedom": 6.7
+},
+"BWA": {
+"cpi": 58.0,
+"freedomHouse": 75.0,
+"pressFreedom": 57.64,
+"peaceIndex": 1.823,
+"humanFreedom": 7.46
+},
+"CAF": {
+"cpi": 24.0,
+"freedomHouse": 5.0,
+"pressFreedom": 60.15,
+"peaceIndex": 2.906,
+"humanFreedom": 5.18
+},
+"CAN": {
+"cpi": 75.0,
+"freedomHouse": 97.0,
+"pressFreedom": 78.75,
+"peaceIndex": 1.525,
+"humanFreedom": 8.74
+},
+"CHE": {
+"cpi": 80.0,
+"freedomHouse": 96.0,
+"pressFreedom": 83.98,
+"peaceIndex": 1.363,
+"humanFreedom": 9.14
+},
+"CHL": {
+"cpi": 63.0,
+"freedomHouse": 95.0,
+"pressFreedom": 62.25,
+"peaceIndex": 1.826,
+"humanFreedom": 8.24
+},
+"CHN": {
+"cpi": 43.0,
+"freedomHouse": 9.0,
+"pressFreedom": 14.8,
+"peaceIndex": 2.231,
+"humanFreedom": 4.93
+},
+"CIV": {
+"cpi": 43.0,
+"freedomHouse": 49.0,
+"pressFreedom": 63.69,
+"peaceIndex": 2.061,
+"humanFreedom": 6.6
+},
+"CMR": {
+"cpi": 26.0,
+"freedomHouse": 15.0,
+"pressFreedom": 42.75,
+"peaceIndex": 2.634,
+"humanFreedom": 5.26
+},
+"COD": {
+"cpi": 20.0,
+"freedomHouse": 18.0,
+"pressFreedom": 42.31,
+"peaceIndex": 3.189,
+"humanFreedom": 5.29
+},
+"COG": {
+"cpi": 23.0,
+"freedomHouse": 17.0,
+"pressFreedom": 60.58,
+"peaceIndex": 2.256,
+"humanFreedom": 5.4
+},
+"COL": {
+"cpi": 37.0,
+"freedomHouse": 70.0,
+"pressFreedom": 49.8,
+"peaceIndex": 2.735,
+"humanFreedom": 6.95
+},
+"COM": {
+"cpi": 20.0,
+"freedomHouse": 42.0,
+"pressFreedom": 59.27,
+"peaceIndex": null,
+"humanFreedom": 5.43
+},
+"CPV": {
+"cpi": 62.0,
+"freedomHouse": 92.0,
+"pressFreedom": 74.98,
+"peaceIndex": null,
+"humanFreedom": 8.29
+},
+"CRI": {
+"cpi": 56.0,
+"freedomHouse": 91.0,
+"pressFreedom": 73.09,
+"peaceIndex": 1.86,
+"humanFreedom": 8.23
+},
+"CUB": {
+"cpi": 40.0,
+"freedomHouse": 10.0,
+"pressFreedom": 26.03,
+"peaceIndex": 2.139,
+"humanFreedom": null
+},
+"CYP": {
+"cpi": 55.0,
+"freedomHouse": 91.0,
+"pressFreedom": 59.04,
+"peaceIndex": 1.967,
+"humanFreedom": 8.25
+},
+"CZE": {
+"cpi": 59.0,
+"freedomHouse": 95.0,
+"pressFreedom": 83.96,
+"peaceIndex": 1.517,
+"humanFreedom": 8.66
+},
+"DEU": {
+"cpi": 77.0,
+"freedomHouse": 95.0,
+"pressFreedom": 83.85,
+"peaceIndex": 1.657,
+"humanFreedom": 8.67
+},
+"DJI": {
+"cpi": 31.0,
+"freedomHouse": 24.0,
+"pressFreedom": 25.36,
+"peaceIndex": 2.098,
+"humanFreedom": 5.49
+},
+"DMA": {
+"cpi": 60.0,
+"freedomHouse": 92.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"DNK": {
+"cpi": 89.0,
+"freedomHouse": 97.0,
+"pressFreedom": 86.93,
+"peaceIndex": 1.504,
+"humanFreedom": 9.04
+},
+"DOM": {
+"cpi": 37.0,
+"freedomHouse": 68.0,
+"pressFreedom": 69.87,
+"peaceIndex": 2.038,
+"humanFreedom": 7.85
+},
+"DZA": {
+"cpi": 34.0,
+"freedomHouse": 31.0,
+"pressFreedom": 44.64,
+"peaceIndex": 2.053,
+"humanFreedom": 4.7
+},
+"ECU": {
+"cpi": 33.0,
+"freedomHouse": 65.0,
+"pressFreedom": 53.76,
+"peaceIndex": 2.539,
+"humanFreedom": 6.99
+},
+"EGY": {
+"cpi": 30.0,
+"freedomHouse": 18.0,
+"pressFreedom": 24.74,
+"peaceIndex": 2.186,
+"humanFreedom": 4.17
+},
+"ERI": {
+"cpi": 13.0,
+"freedomHouse": 3.0,
+"pressFreedom": 11.32,
+"peaceIndex": 2.412,
+"humanFreedom": null
+},
+"ESP": {
+"cpi": 55.0,
+"freedomHouse": 90.0,
+"pressFreedom": 77.35,
+"peaceIndex": 1.654,
+"humanFreedom": 8.34
+},
+"EST": {
+"cpi": 76.0,
+"freedomHouse": 96.0,
+"pressFreedom": 89.46,
+"peaceIndex": 1.623,
+"humanFreedom": 8.78
+},
+"ETH": {
+"cpi": 38.0,
+"freedomHouse": 18.0,
+"pressFreedom": 36.92,
+"peaceIndex": 2.648,
+"humanFreedom": 5.16
+},
+"FIN": {
+"cpi": 88.0,
+"freedomHouse": 100.0,
+"pressFreedom": 87.18,
+"peaceIndex": 1.478,
+"humanFreedom": 8.84
+},
+"FJI": {
+"cpi": 55.0,
+"freedomHouse": 69.0,
+"pressFreedom": 71.2,
+"peaceIndex": null,
+"humanFreedom": 7.19
+},
+"FRA": {
+"cpi": 66.0,
+"freedomHouse": 89.0,
+"pressFreedom": 76.62,
+"peaceIndex": 2.083,
+"humanFreedom": 8.21
+},
+"FSM": {
+"cpi": null,
+"freedomHouse": 92.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"GAB": {
+"cpi": 29.0,
+"freedomHouse": 21.0,
+"pressFreedom": 70.65,
+"peaceIndex": 2.086,
+"humanFreedom": 6.32
+},
+"GBR": {
+"cpi": 70.0,
+"freedomHouse": 92.0,
+"pressFreedom": 78.89,
+"peaceIndex": 1.73,
+"humanFreedom": 8.64
+},
+"GEO": {
+"cpi": 50.0,
+"freedomHouse": 55.0,
+"pressFreedom": 50.53,
+"peaceIndex": 2.066,
+"humanFreedom": 7.7
+},
+"GHA": {
+"cpi": 43.0,
+"freedomHouse": 80.0,
+"pressFreedom": 67.13,
+"peaceIndex": 1.943,
+"humanFreedom": 7.07
+},
+"GIN": {
+"cpi": 26.0,
+"freedomHouse": 30.0,
+"pressFreedom": 52.53,
+"peaceIndex": 2.22,
+"humanFreedom": 5.16
+},
+"GMB": {
+"cpi": 37.0,
+"freedomHouse": 50.0,
+"pressFreedom": 65.49,
+"peaceIndex": 1.837,
+"humanFreedom": 6.71
+},
+"GNB": {
+"cpi": 21.0,
+"freedomHouse": 41.0,
+"pressFreedom": 51.36,
+"peaceIndex": 2.012,
+"humanFreedom": 6.43
+},
+"GNQ": {
+"cpi": 15.0,
+"freedomHouse": 5.0,
+"pressFreedom": 48.68,
+"peaceIndex": 1.729,
+"humanFreedom": null
+},
+"GRC": {
+"cpi": 50.0,
+"freedomHouse": 85.0,
+"pressFreedom": 55.37,
+"peaceIndex": 1.828,
+"humanFreedom": 7.58
+},
+"GRD": {
+"cpi": 56.0,
+"freedomHouse": 89.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"GTM": {
+"cpi": 26.0,
+"freedomHouse": 48.0,
+"pressFreedom": 40.32,
+"peaceIndex": 2.025,
+"humanFreedom": 7.21
+},
+"GUY": {
+"cpi": 40.0,
+"freedomHouse": 74.0,
+"pressFreedom": 60.12,
+"peaceIndex": 2.093,
+"humanFreedom": 6.91
+},
+"HKG": {
+"cpi": 76.0,
+"freedomHouse": null,
+"pressFreedom": 39.86,
+"peaceIndex": null,
+"humanFreedom": 7.73
+},
+"HND": {
+"cpi": 22.0,
+"freedomHouse": 48.0,
+"pressFreedom": 38.51,
+"peaceIndex": 2.075,
+"humanFreedom": 6.9
+},
+"HRV": {
+"cpi": 47.0,
+"freedomHouse": 82.0,
+"pressFreedom": 64.2,
+"peaceIndex": 1.619,
+"humanFreedom": 8.0
+},
+"HTI": {
+"cpi": 16.0,
+"freedomHouse": 24.0,
+"pressFreedom": 51.06,
+"peaceIndex": 2.755,
+"humanFreedom": 6.15
+},
+"HUN": {
+"cpi": 40.0,
+"freedomHouse": 65.0,
+"pressFreedom": 62.82,
+"peaceIndex": 1.538,
+"humanFreedom": 7.44
+},
+"IDN": {
+"cpi": 34.0,
+"freedomHouse": 56.0,
+"pressFreedom": 44.13,
+"peaceIndex": 1.918,
+"humanFreedom": 6.82
+},
+"IND": {
+"cpi": 39.0,
+"freedomHouse": 63.0,
+"pressFreedom": 32.96,
+"peaceIndex": 2.409,
+"humanFreedom": 6.26
+},
+"IRL": {
+"cpi": 76.0,
+"freedomHouse": 97.0,
+"pressFreedom": 86.92,
+"peaceIndex": 1.371,
+"humanFreedom": 8.91
+},
+"IRN": {
+"cpi": 23.0,
+"freedomHouse": 11.0,
+"pressFreedom": 16.22,
+"peaceIndex": 2.759,
+"humanFreedom": 3.96
+},
+"IRQ": {
+"cpi": 28.0,
+"freedomHouse": 31.0,
+"pressFreedom": 30.69,
+"peaceIndex": 2.662,
+"humanFreedom": 4.71
+},
+"ISL": {
+"cpi": 77.0,
+"freedomHouse": 95.0,
+"pressFreedom": 81.36,
+"peaceIndex": 1.161,
+"humanFreedom": 8.8
+},
+"ISR": {
+"cpi": 62.0,
+"freedomHouse": 73.0,
+"pressFreedom": 51.06,
+"peaceIndex": 3.124,
+"humanFreedom": 7.54
+},
+"ITA": {
+"cpi": 53.0,
+"freedomHouse": 89.0,
+"pressFreedom": 68.01,
+"peaceIndex": 1.712,
+"humanFreedom": 8.26
+},
+"JAM": {
+"cpi": 44.0,
+"freedomHouse": 80.0,
+"pressFreedom": 75.83,
+"peaceIndex": 1.919,
+"humanFreedom": 7.8
+},
+"JOR": {
+"cpi": 50.0,
+"freedomHouse": 34.0,
+"pressFreedom": 35.25,
+"peaceIndex": 1.913,
+"humanFreedom": 6.48
+},
+"JPN": {
+"cpi": 71.0,
+"freedomHouse": 96.0,
+"pressFreedom": 63.14,
+"peaceIndex": 1.489,
+"humanFreedom": 8.73
+},
+"KAZ": {
+"cpi": 38.0,
+"freedomHouse": 23.0,
+"pressFreedom": 39.34,
+"peaceIndex": 1.771,
+"humanFreedom": 6.38
+},
+"KEN": {
+"cpi": 30.0,
+"freedomHouse": 51.0,
+"pressFreedom": 49.41,
+"peaceIndex": 2.447,
+"humanFreedom": 6.62
+},
+"KGZ": {
+"cpi": 26.0,
+"freedomHouse": 26.0,
+"pressFreedom": 37.46,
+"peaceIndex": 1.853,
+"humanFreedom": 6.57
+},
+"KHM": {
+"cpi": 20.0,
+"freedomHouse": 23.0,
+"pressFreedom": 28.18,
+"peaceIndex": 2.075,
+"humanFreedom": 6.14
+},
+"KIR": {
+"cpi": null,
+"freedomHouse": 89.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"KNA": {
+"cpi": null,
+"freedomHouse": 89.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"KOR": {
+"cpi": 63.0,
+"freedomHouse": 81.0,
+"pressFreedom": 64.06,
+"peaceIndex": 1.839,
+"humanFreedom": 8.23
+},
+"KWT": {
+"cpi": 46.0,
+"freedomHouse": 31.0,
+"pressFreedom": 44.06,
+"peaceIndex": 1.813,
+"humanFreedom": 6.1
+},
+"LAO": {
+"cpi": 34.0,
+"freedomHouse": 13.0,
+"pressFreedom": 33.22,
+"peaceIndex": 1.846,
+"humanFreedom": 5.15
+},
+"LBN": {
+"cpi": 23.0,
+"freedomHouse": 39.0,
+"pressFreedom": 42.62,
+"peaceIndex": 2.435,
+"humanFreedom": 5.96
+},
+"LBR": {
+"cpi": 28.0,
+"freedomHouse": 64.0,
+"pressFreedom": 66.75,
+"peaceIndex": 2.024,
+"humanFreedom": 6.52
+},
+"LBY": {
+"cpi": 13.0,
+"freedomHouse": 10.0,
+"pressFreedom": 40.42,
+"peaceIndex": 2.361,
+"humanFreedom": 4.92
+},
+"LCA": {
+"cpi": 59.0,
+"freedomHouse": 91.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"LIE": {
+"cpi": null,
+"freedomHouse": 90.0,
+"pressFreedom": 83.42,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"LKA": {
+"cpi": 35.0,
+"freedomHouse": 58.0,
+"pressFreedom": 39.93,
+"peaceIndex": 1.91,
+"humanFreedom": 6.11
+},
+"LSO": {
+"cpi": 37.0,
+"freedomHouse": 66.0,
+"pressFreedom": 52.07,
+"peaceIndex": 2.016,
+"humanFreedom": 6.69
+},
+"LTU": {
+"cpi": 65.0,
+"freedomHouse": 89.0,
+"pressFreedom": 82.27,
+"peaceIndex": 1.62,
+"humanFreedom": 8.38
+},
+"LUX": {
+"cpi": 78.0,
+"freedomHouse": 97.0,
+"pressFreedom": 83.04,
+"peaceIndex": null,
+"humanFreedom": 8.93
+},
+"LVA": {
+"cpi": 60.0,
+"freedomHouse": 89.0,
+"pressFreedom": 81.82,
+"peaceIndex": 1.589,
+"humanFreedom": 8.49
+},
+"MAR": {
+"cpi": 39.0,
+"freedomHouse": 37.0,
+"pressFreedom": 48.04,
+"peaceIndex": 1.887,
+"humanFreedom": 5.49
+},
+"MCO": {
+"cpi": null,
+"freedomHouse": 82.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"MDA": {
+"cpi": 42.0,
+"freedomHouse": 60.0,
+"pressFreedom": 73.36,
+"peaceIndex": 1.836,
+"humanFreedom": 7.43
+},
+"MDG": {
+"cpi": 25.0,
+"freedomHouse": 55.0,
+"pressFreedom": 50.8,
+"peaceIndex": 1.849,
+"humanFreedom": 6.67
+},
+"MDV": {
+"cpi": 39.0,
+"freedomHouse": 43.0,
+"pressFreedom": 52.46,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"MEX": {
+"cpi": 27.0,
+"freedomHouse": 59.0,
+"pressFreedom": 45.55,
+"peaceIndex": 2.65,
+"humanFreedom": 6.66
+},
+"MHL": {
+"cpi": null,
+"freedomHouse": 93.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"MKD": {
+"cpi": 40.0,
+"freedomHouse": 67.0,
+"pressFreedom": 70.44,
+"peaceIndex": 1.792,
+"humanFreedom": 7.61
+},
+"MLI": {
+"cpi": 28.0,
+"freedomHouse": 24.0,
+"pressFreedom": 48.23,
+"peaceIndex": 2.996,
+"humanFreedom": 5.75
+},
+"MLT": {
+"cpi": 49.0,
+"freedomHouse": 87.0,
+"pressFreedom": 62.96,
+"peaceIndex": null,
+"humanFreedom": 8.48
+},
+"MMR": {
+"cpi": 16.0,
+"freedomHouse": 7.0,
+"pressFreedom": 25.32,
+"peaceIndex": 2.911,
+"humanFreedom": 3.97
+},
+"MNE": {
+"cpi": 46.0,
+"freedomHouse": 69.0,
+"pressFreedom": 72.83,
+"peaceIndex": 1.672,
+"humanFreedom": 7.77
+},
+"MNG": {
+"cpi": 31.0,
+"freedomHouse": 84.0,
+"pressFreedom": 52.57,
+"peaceIndex": 1.692,
+"humanFreedom": 7.61
+},
+"MOZ": {
+"cpi": 21.0,
+"freedomHouse": 41.0,
+"pressFreedom": 52.63,
+"peaceIndex": 2.383,
+"humanFreedom": 6.41
+},
+"MRT": {
+"cpi": 30.0,
+"freedomHouse": 39.0,
+"pressFreedom": 67.52,
+"peaceIndex": 2.184,
+"humanFreedom": 5.41
+},
+"MUS": {
+"cpi": 48.0,
+"freedomHouse": 86.0,
+"pressFreedom": 67.31,
+"peaceIndex": 1.586,
+"humanFreedom": 7.66
+},
+"MWI": {
+"cpi": 34.0,
+"freedomHouse": 65.0,
+"pressFreedom": 59.2,
+"peaceIndex": 1.994,
+"humanFreedom": 6.85
+},
+"MYS": {
+"cpi": 52.0,
+"freedomHouse": 53.0,
+"pressFreedom": 56.09,
+"peaceIndex": 1.513,
+"humanFreedom": 7.06
+},
+"NAM": {
+"cpi": 46.0,
+"freedomHouse": 73.0,
+"pressFreedom": 75.35,
+"peaceIndex": 1.872,
+"humanFreedom": 7.48
+},
+"NER": {
+"cpi": 31.0,
+"freedomHouse": 30.0,
+"pressFreedom": 57.05,
+"peaceIndex": 2.832,
+"humanFreedom": 6.26
+},
+"NGA": {
+"cpi": 26.0,
+"freedomHouse": 44.0,
+"pressFreedom": 46.81,
+"peaceIndex": 2.755,
+"humanFreedom": 5.61
+},
+"NIC": {
+"cpi": 14.0,
+"freedomHouse": 14.0,
+"pressFreedom": 22.83,
+"peaceIndex": 2.107,
+"humanFreedom": 5.27
+},
+"NLD": {
+"cpi": 78.0,
+"freedomHouse": 97.0,
+"pressFreedom": 88.64,
+"peaceIndex": 1.566,
+"humanFreedom": 8.66
+},
+"NOR": {
+"cpi": 81.0,
+"freedomHouse": 99.0,
+"pressFreedom": 92.31,
+"peaceIndex": 1.688,
+"humanFreedom": 8.73
+},
+"NPL": {
+"cpi": 34.0,
+"freedomHouse": 62.0,
+"pressFreedom": 55.2,
+"peaceIndex": 2.143,
+"humanFreedom": 6.9
+},
+"NRU": {
+"cpi": null,
+"freedomHouse": 75.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"NZL": {
+"cpi": 81.0,
+"freedomHouse": 99.0,
+"pressFreedom": 81.37,
+"peaceIndex": 1.343,
+"humanFreedom": 9.08
+},
+"OMN": {
+"cpi": 52.0,
+"freedomHouse": 24.0,
+"pressFreedom": 42.29,
+"peaceIndex": 1.85,
+"humanFreedom": 5.62
+},
+"PAK": {
+"cpi": 28.0,
+"freedomHouse": 32.0,
+"pressFreedom": 29.62,
+"peaceIndex": 2.919,
+"humanFreedom": 5.4
+},
+"PAN": {
+"cpi": 33.0,
+"freedomHouse": 83.0,
+"pressFreedom": 66.75,
+"peaceIndex": 1.976,
+"humanFreedom": 8.0
+},
+"PER": {
+"cpi": 30.0,
+"freedomHouse": 67.0,
+"pressFreedom": 42.88,
+"peaceIndex": 2.12,
+"humanFreedom": 7.62
+},
+"PHL": {
+"cpi": 32.0,
+"freedomHouse": 58.0,
+"pressFreedom": 49.57,
+"peaceIndex": 2.092,
+"humanFreedom": 6.54
+},
+"PLW": {
+"cpi": null,
+"freedomHouse": 92.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"PNG": {
+"cpi": 26.0,
+"freedomHouse": 61.0,
+"pressFreedom": 58.35,
+"peaceIndex": 2.002,
+"humanFreedom": 7.17
+},
+"POL": {
+"cpi": 52.0,
+"freedomHouse": 82.0,
+"pressFreedom": 74.79,
+"peaceIndex": 1.615,
+"humanFreedom": 7.72
+},
+"PRK": {
+"cpi": 15.0,
+"freedomHouse": 3.0,
+"pressFreedom": 12.64,
+"peaceIndex": 2.845,
+"humanFreedom": null
+},
+"PRT": {
+"cpi": 56.0,
+"freedomHouse": 96.0,
+"pressFreedom": 84.26,
+"peaceIndex": 1.427,
+"humanFreedom": 8.57
+},
+"PRY": {
+"cpi": 24.0,
+"freedomHouse": 63.0,
+"pressFreedom": 56.84,
+"peaceIndex": 1.882,
+"humanFreedom": 7.24
+},
+"PSE": {
+"cpi": null,
+"freedomHouse": null,
+"pressFreedom": null,
+"peaceIndex": 2.877,
+"humanFreedom": null
+},
+"QAT": {
+"cpi": 58.0,
+"freedomHouse": 25.0,
+"pressFreedom": 58.25,
+"peaceIndex": 1.676,
+"humanFreedom": 5.41
+},
+"ROU": {
+"cpi": 45.0,
+"freedomHouse": 82.0,
+"pressFreedom": 66.42,
+"peaceIndex": 1.788,
+"humanFreedom": 8.03
+},
+"RUS": {
+"cpi": 22.0,
+"freedomHouse": 12.0,
+"pressFreedom": 24.57,
+"peaceIndex": 3.367,
+"humanFreedom": 5.35
+},
+"RWA": {
+"cpi": 58.0,
+"freedomHouse": 21.0,
+"pressFreedom": 35.84,
+"peaceIndex": null,
+"humanFreedom": 5.87
+},
+"SAU": {
+"cpi": 57.0,
+"freedomHouse": 9.0,
+"pressFreedom": 27.94,
+"peaceIndex": 2.067,
+"humanFreedom": 4.8
+},
+"SDN": {
+"cpi": 14.0,
+"freedomHouse": 2.0,
+"pressFreedom": 30.34,
+"peaceIndex": 3.195,
+"humanFreedom": 4.05
+},
+"SEN": {
+"cpi": 46.0,
+"freedomHouse": 69.0,
+"pressFreedom": 59.43,
+"peaceIndex": 1.939,
+"humanFreedom": 6.73
+},
+"SGP": {
+"cpi": 84.0,
+"freedomHouse": 48.0,
+"pressFreedom": 45.78,
+"peaceIndex": 1.435,
+"humanFreedom": 7.85
+},
+"SLB": {
+"cpi": 44.0,
+"freedomHouse": 75.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"SLE": {
+"cpi": 34.0,
+"freedomHouse": 59.0,
+"pressFreedom": 66.36,
+"peaceIndex": 1.937,
+"humanFreedom": 6.34
+},
+"SLV": {
+"cpi": 32.0,
+"freedomHouse": 47.0,
+"pressFreedom": 41.19,
+"peaceIndex": 2.264,
+"humanFreedom": 7.1
+},
+"SMR": {
+"cpi": null,
+"freedomHouse": 97.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"SOM": {
+"cpi": 9.0,
+"freedomHouse": 8.0,
+"pressFreedom": 40.49,
+"peaceIndex": 2.973,
+"humanFreedom": 4.67
+},
+"SRB": {
+"cpi": 33.0,
+"freedomHouse": 56.0,
+"pressFreedom": 53.55,
+"peaceIndex": 1.919,
+"humanFreedom": 7.08
+},
+"SSD": {
+"cpi": 9.0,
+"freedomHouse": 1.0,
+"pressFreedom": 51.63,
+"peaceIndex": 3.116,
+"humanFreedom": null
+},
+"STP": {
+"cpi": 45.0,
+"freedomHouse": 84.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"SUR": {
+"cpi": 38.0,
+"freedomHouse": 80.0,
+"pressFreedom": 74.49,
+"peaceIndex": null,
+"humanFreedom": 7.29
+},
+"SVK": {
+"cpi": 48.0,
+"freedomHouse": 89.0,
+"pressFreedom": 72.83,
+"peaceIndex": 1.661,
+"humanFreedom": 8.2
+},
+"SVN": {
+"cpi": 58.0,
+"freedomHouse": 96.0,
+"pressFreedom": 74.06,
+"peaceIndex": 1.369,
+"humanFreedom": 8.26
+},
+"SWE": {
+"cpi": 80.0,
+"freedomHouse": 99.0,
+"pressFreedom": 88.13,
+"peaceIndex": 1.732,
+"humanFreedom": 8.8
+},
+"SWZ": {
+"cpi": 23.0,
+"freedomHouse": 17.0,
+"pressFreedom": 52.86,
+"peaceIndex": 2.095,
+"humanFreedom": 5.11
+},
+"SYC": {
+"cpi": 68.0,
+"freedomHouse": 80.0,
+"pressFreedom": 68.56,
+"peaceIndex": null,
+"humanFreedom": 8.01
+},
+"SYR": {
+"cpi": 15.0,
+"freedomHouse": 5.0,
+"pressFreedom": 15.82,
+"peaceIndex": 3.067,
+"humanFreedom": 3.1
+},
+"TCD": {
+"cpi": 22.0,
+"freedomHouse": 15.0,
+"pressFreedom": 51.89,
+"peaceIndex": 2.769,
+"humanFreedom": 4.81
+},
+"TGO": {
+"cpi": 32.0,
+"freedomHouse": 41.0,
+"pressFreedom": 48.03,
+"peaceIndex": 2.251,
+"humanFreedom": 6.32
+},
+"THA": {
+"cpi": 33.0,
+"freedomHouse": 34.0,
+"pressFreedom": 56.72,
+"peaceIndex": 2.089,
+"humanFreedom": 6.67
+},
+"TJK": {
+"cpi": 19.0,
+"freedomHouse": 5.0,
+"pressFreedom": 32.21,
+"peaceIndex": 1.799,
+"humanFreedom": 5.38
+},
+"TKM": {
+"cpi": 17.0,
+"freedomHouse": 1.0,
+"pressFreedom": 19.14,
+"peaceIndex": 1.903,
+"humanFreedom": null
+},
+"TLS": {
+"cpi": 44.0,
+"freedomHouse": 72.0,
+"pressFreedom": 71.79,
+"peaceIndex": 1.681,
+"humanFreedom": 7.34
+},
+"TON": {
+"cpi": null,
+"freedomHouse": 80.0,
+"pressFreedom": 68.39,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"TTO": {
+"cpi": 41.0,
+"freedomHouse": 82.0,
+"pressFreedom": 79.71,
+"peaceIndex": 1.959,
+"humanFreedom": 7.57
+},
+"TUN": {
+"cpi": 39.0,
+"freedomHouse": 44.0,
+"pressFreedom": 43.48,
+"peaceIndex": 1.947,
+"humanFreedom": 5.97
+},
+"TUR": {
+"cpi": 31.0,
+"freedomHouse": 33.0,
+"pressFreedom": 29.4,
+"peaceIndex": 2.605,
+"humanFreedom": 5.28
+},
+"TUV": {
+"cpi": null,
+"freedomHouse": 93.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"TWN": {
+"cpi": 68.0,
+"freedomHouse": 94.0,
+"pressFreedom": 77.04,
+"peaceIndex": 1.751,
+"humanFreedom": 8.61
+},
+"TZA": {
+"cpi": 40.0,
+"freedomHouse": 35.0,
+"pressFreedom": 53.68,
+"peaceIndex": 2.08,
+"humanFreedom": 6.38
+},
+"UGA": {
+"cpi": 25.0,
+"freedomHouse": 34.0,
+"pressFreedom": 37.61,
+"peaceIndex": 2.42,
+"humanFreedom": 5.92
+},
+"UKR": {
+"cpi": 36.0,
+"freedomHouse": 51.0,
+"pressFreedom": 63.93,
+"peaceIndex": 3.184,
+"humanFreedom": 5.84
+},
+"URY": {
+"cpi": 73.0,
+"freedomHouse": 96.0,
+"pressFreedom": 65.18,
+"peaceIndex": 1.754,
+"humanFreedom": 8.19
+},
+"USA": {
+"cpi": 64.0,
+"freedomHouse": 84.0,
+"pressFreedom": 65.49,
+"peaceIndex": 2.535,
+"humanFreedom": 8.64
+},
+"UZB": {
+"cpi": 31.0,
+"freedomHouse": 12.0,
+"pressFreedom": 35.24,
+"peaceIndex": 1.726,
+"humanFreedom": null
+},
+"VCT": {
+"cpi": 63.0,
+"freedomHouse": 90.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"VEN": {
+"cpi": 10.0,
+"freedomHouse": 13.0,
+"pressFreedom": 29.21,
+"peaceIndex": 2.516,
+"humanFreedom": 4.18
+},
+"VNM": {
+"cpi": 41.0,
+"freedomHouse": 20.0,
+"pressFreedom": 19.74,
+"peaceIndex": 1.738,
+"humanFreedom": 5.43
+},
+"VUT": {
+"cpi": 47.0,
+"freedomHouse": 82.0,
+"pressFreedom": null,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"WSM": {
+"cpi": null,
+"freedomHouse": 84.0,
+"pressFreedom": 69.28,
+"peaceIndex": null,
+"humanFreedom": null
+},
+"XKX": {
+"cpi": 43.0,
+"freedomHouse": 60.0,
+"pressFreedom": 52.73,
+"peaceIndex": 1.83,
+"humanFreedom": null
+},
+"YEM": {
+"cpi": 13.0,
+"freedomHouse": 10.0,
+"pressFreedom": 31.45,
+"peaceIndex": 3.081,
+"humanFreedom": 3.78
+},
+"ZAF": {
+"cpi": 41.0,
+"freedomHouse": 81.0,
+"pressFreedom": 75.71,
+"peaceIndex": 2.308,
+"humanFreedom": 7.1
+},
+"ZMB": {
+"cpi": 37.0,
+"freedomHouse": 53.0,
+"pressFreedom": 57.33,
+"peaceIndex": 1.992,
+"humanFreedom": 6.66
+},
+"ZWE": {
+"cpi": 22.0,
+"freedomHouse": 26.0,
+"pressFreedom": 52.1,
+"peaceIndex": 2.051,
+"humanFreedom": 4.87
+}
+}
